@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Mon Portfolio </title>
+</head>
+<body>
+
+    <!-- Barre de navigation -->
+    <nav>
+        <ul>
+            <li><a href="#home">Accueil</a></li>
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#work">Travail</a></li>
+            <li><a href="#resume">CV</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Section "À propos" -->
+    <section id="about">
+        <h2>A propos de moi</h2>
+        <p>Je suis une étudiante en L3 ingenierie des systemes d'information et des logiciels a l'USTHB , je suis passionée de l'informatique , je poursuis mon parcours d'apprentissage dans ce domaine et j'aimerai apprendre encore plus </p>
+    </section>
+
+    <!-- Section "Travail" -->
+    <section id="work">
+        <h2>Mon travail</h2>
+        <p>Voici quelques uns de mes projets réalisés :</p>
+        <a href="file:///C:/Users/HP/OneDrive/Documents/L3%20ISIL/Projet/index.html" >Page html</a>
+
+    </section>
+
+    <!-- Section "CV" -->
+    <section id="resume">
+        <h2>Mon CV</h2>
+        <h3>Éducation:</h3>
+    <ul>
+        <li>
+            <strong>Licence en ingenierie des systemes d'informations et des logiciels</strong><br>
+            Nom de l'université:USTHB<br>
+            Date de début:septembre 2021<br>
+            Date de fin: juin 2024<br>
+        </li>
+        <!-- Ajouter d'autres expériences éducatives au besoin -->
+    </ul>
+    <h3>Compétences:</h3>
+    <ul>
+        <li>Développement web (HTML)</li>
+        <li>Frameworks (Django)</li>
+        <li>Bases de données (SQL, MongoDB, etc.)</li>
+        <li>Languages de programmation (C,java,python)</li>
+        <li>Bases de données (SQL)</li>
+        <!-- Ajouter d'autres compétences au besoin -->
+    </ul>
+    </section>
+
+    <!-- Section "Contact" avec formulaire -->
+    <section id="contact">
+        <h2>Contactez-moi</h2>
+        <form action="/submit" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="Secondname">Prénom :</label>
+            <input type="text" id="Secondname" name="Secondname" required>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="commentaire">Commentaire :</label>
+            <textarea id="commentaire" name="commentaire" required></textarea>
+
+            <input type="submit" value="Envoyer">
+        </form>
+    </section>
+
+    <!-- Vidéo Youtube -->
+    <h3>Si vous voulez savoir plus sur ma spécialite , Voici une video youtube qui pourra vous aider</h3>
+    <iframe
+	width="420"
+	height="315"
+	src="https://www.youtube.com/embed/qsliCsz49mg"
+></iframe>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; Mon Portfolio_2023</p>
+    </footer>
+
+</body>
+</html>
